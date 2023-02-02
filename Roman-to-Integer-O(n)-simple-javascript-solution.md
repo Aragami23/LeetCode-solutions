@@ -6,7 +6,7 @@ https://leetcode.com/problems/roman-to-integer/submissions/889806621/
 
 # Intuition
 My first intuition was to go from the right, that way I would be able to inmediatelly identify if a roman was repeated three times and in that case or in the case of two repetitions of the number I would add the repetitions times the integer equivalent to the total sum.
-But then I read the problem again an the rules clearly stated that there where only certain romans that when put to the left of another would form this new number, and those were only  6 possibilities.
+But then I read the problem again an the rules clearly stated that there were only certain romans that when put to the left of another would form this new number, and those were only  6 possibilities.
 # Approach
 Being that my goal, for the limited time I can dedicate to solve this problems, was to finish ASAP even if that means not finding the most optimal solution, I decided to go for what seemed like an easy and also with a low complexity way of just identifying the 6 special cases and any other thing just to add it roman by roman using the equivalent integer.
 
